@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <!-- nav bar for desktop -->
+     
+    <nav id="desktop-nav">
+        <div class="logo">Tanmoy<span class="text-highlight">Dhar.</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- nav bar for mobile -->
+
+    <nav id="hambuger-nav">
+        <div class="logo">Tanmoy<span class="text-highlight">Dhar.</div>
+        <div class="hamburger-manu">
+            <div class="humburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="assets/Tanmoy2.png" alt="Profile Picture">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello, I'm</p>
+            <h1 class="title">Tanmoy<span class="text-highlight2"> Dhar</h1>
+            <p class="section-text-p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Tanmoy Dhar Ripon_CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="social-contaner">
+                <img src="./assets/github.png" alt="linkedin icon" class="icon"
+                    onclick="location.href = 'https://github.com/Tanmoy-Dhar'" target="_blank">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon"
+                    onclick="location.href = 'https://www.linkedin.com/in/tanmoy-dhar-ripon-6126922ba'" target="_blank">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/Tanmoy3.png" alt="Image" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="icon" class="icon">
+
+                        <h3>Experience</h3>
+                        <p>Frontend Development <br>Backend Development</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+
+                        <h3>Education</h3>
+                        <p>BSc. in CSE <br>Daffodil International University</p>
+                        <p>MSc. in CS <br>Jahangirnagar University(Running)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Dedicated and passionate web developer with foundational knowledge in front-end and back-end technologies, eager to apply my skills in creating responsive and user-centric websites. Seeking an entry-level role to contribute to impactful projects and expand my expertise in web development through hands-on experience in a dynamic team environment.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
