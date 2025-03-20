@@ -3,7 +3,7 @@ function toggleMenu() {
     const hamburgerIcon = document.querySelector('.humburger-icon');
     menu.classList.toggle('open');
     hamburgerIcon.classList.toggle('open');
-}
+};
 
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
