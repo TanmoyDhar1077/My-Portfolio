@@ -2,7 +2,9 @@
 
 A modern, responsive personal portfolio website showcasing my skills, projects, and professional experience as a web developer.
 
-🌐 **Live Demo**: [https://tanmoy-dhar-ripon.netlify.app/](https://tanmoy-dhar-ripon.netlify.app/)
+🌐 **Live Demo**: 
+- [Netlify](https://tanmoy-dhar-ripon.netlify.app/)
+- [GitHub Pages](https://tanmoydhar1077.github.io/My-Portfolio/)
 
 ## 🌟 Features
 
